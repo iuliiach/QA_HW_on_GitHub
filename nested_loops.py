@@ -59,4 +59,19 @@ for i in range(1, m + 1):
 for i in range(m - 1, 0, -1):
     for j in range(i):
         print('*', end='')
-    print()  
+    print()
+
+# Problem 6: Дано натуральное число n. Напишите программу, которая печатает численный треугольник с высотой равной n, в соответствии с примером:
+
+# 1
+# 2 3
+# 4 5 6
+# 7 8 9 10
+
+total = 0
+n = int(input())
+for i in range(n):
+    for j in range(i + 1):
+        total += 1
+        print(total, end =' ')
+    print()
