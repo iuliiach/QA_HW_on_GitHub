@@ -128,3 +128,4 @@ n = random.randint(5, 9)
 for num in range(n, n ** 2 + 1):
     if num % 2 != 0:
         print(num, end='*')
+
