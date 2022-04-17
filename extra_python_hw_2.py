@@ -112,3 +112,20 @@ array_2 = [array_1[0], array_1[5], avg, sum]
 array_3 = ['min', 'max', 'avg', 'sum']
 my_dict = dict(zip(array_3, array_2))
 print(my_dict)
+
+Task_6
+
+my_array = []
+n = random.randint(5, 9)
+for num in range(n, n ** 2 + 1):
+    if num % 2 != 0:
+        my_array.append(num)
+print(my_array)
+
+6.1
+
+n = random.randint(5, 9)
+for num in range(n, n ** 2 + 1):
+    if num % 2 != 0:
+        print(num, end='*')
+
