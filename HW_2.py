@@ -103,5 +103,6 @@ b_item_1_int = int(b_item_t)
 print(b_item_1_int)
 #60. Создать переменную b_item_2_int и присвоить явное приведение b_item_2 к int
 b_item_2_int = int(b_item_f)
+
 #61. Вывести b_item_2_int в консоль
 print(b_item_2_int)
